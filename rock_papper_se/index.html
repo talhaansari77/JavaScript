@@ -1,0 +1,62 @@
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Rock Papper Serrior</title>
+
+    <!-- bootstrap -->
+    <link rel="stylesheet" type="text/css" href="static_files/bootstrap/css/bootstrap.min.css">
+    <!-- style sheet -->
+    <link rel="stylesheet" type="text/css" href="static_files/css/stylesheet.css">
+</head>
+
+<body>
+
+    <div class="container-1">
+        <!-- heading -->
+        <h2>Challenge 1: Your Age in Days</h2>
+        
+        <div class="flexbox-container-1">            
+            <!-- buttons -->
+            <div>
+                <button class="btn btn-primary" onclick="age_indays()">Click Me</button>
+            </div>
+            <div>
+                <button class="btn btn-danger" onclick="reset()">Reset</button>
+            </div>
+        </div>
+    </div>
+
+    <div class="flexbox-container-1" style="width:80%;margin: auto;text-align: center;">            
+        <div id="flexbox-result">
+
+        </div>
+    </div>
+
+
+    <!-- container tow -->
+    <!-- Generates Cat -->
+    <div class="container-2">
+        <h2>Challenge 2 : Cat Generater</h2>
+        <button class="btn btn-success" id="cat_generater" onclick="generate_cat()">Generate Cat</button>
+
+        <div class="flexbox-container-2" id="cat_generate_section">
+            
+        </div>
+    </div>
+
+    <div class="container-3">
+        <h2>Challenge 3 : Rock, Paper, Scissor</h2>
+
+        <div class="flexbox-rps" id="flexbox-rps">
+            <img id="rock"  src="static_files/img/rock.jpg" alt=":(" height="150px" onclick="rps_game(this)">
+            <img id="paper" src="static_files/img/paper.jpg" alt=":(" height="150px" onclick="rps_game(this)">
+            <img id="scissors" src="static_files/img/scissors.jpg" alt=":(" height="150px" onclick="rps_game(this)">
+        </div>
+    </div>
+
+    <script src="static_files/js/script.js"></script>
+</body>
+
+</html>

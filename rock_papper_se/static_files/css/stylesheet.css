@@ -1,0 +1,38 @@
+.flexbox-container-1{
+    display: flex;
+    padding: 1rem;
+    border: 1px solid black;
+    justify-content: space-around;
+    flex-wrap: wrap;
+}
+.flexbox-container-1 div {
+    padding: 1rem;
+}
+.container-1, .container-2, .container-3{
+    margin: 0 auto;
+    width: 80%;
+    border: 1px solid black;
+    text-align: center;
+}
+.flexbox-container-2, .flexbox-rps{
+    padding: 1rem;
+    display:flex;
+    border: 1px solid black;
+    flex-wrap: wrap;
+    /* justify-content: space-around; */
+    justify-content: space-evenly;
+}
+.flexbox-container-2 img{    
+    /* padding:1rem; */
+    /* border: 1px solid red; */
+    margin: 1rem;
+    box-shadow: 0px 10px 50px rgba(0, 0, 0, 7);
+}
+.flexbox-rps img:hover{
+    cursor: pointer;
+    box-shadow: 0px 10px 50px rgb(99, 99, 226);
+    transition: 0.5s;
+}
+.flexbox-rps img{
+    margin: 1rem;
+}
